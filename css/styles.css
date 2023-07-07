@@ -566,11 +566,13 @@ margin-bottom: 72px;
   color: var(--text-color-bg);
     background-color: var(--brand-links-hf);
     border: 1px solid transparent;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .portfolio-btn:focus {
  color: var(--text-color-bg);
 background-color: var(--brand-links-hf);
 border: 1px solid transparent;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .projects-list {
@@ -582,6 +584,14 @@ row-gap: 48px;
 
 .projects-item {
 width: calc((100% - 48px) / 3);
+}
+
+.projects-link {
+  display: block;
+}
+
+.projects-link:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .project-container {
