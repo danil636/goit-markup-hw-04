@@ -229,6 +229,17 @@ background-color: var(--brand-links-hf);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: var(--complementary-color);
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
 .peculiarities-list {
   display: flex;
   gap: 24px;
