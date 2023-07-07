@@ -105,6 +105,7 @@ padding: 0 15px;
   color: var(--text-color);
   display: block;
   padding: 24px 0;
+  position: relative;
 }
 
 .header-link:hover {
