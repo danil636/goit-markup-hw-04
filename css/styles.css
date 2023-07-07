@@ -106,6 +106,7 @@ padding: 0 15px;
   display: block;
   padding: 24px 0;
   position: relative;
+  color: var(--brand-links-hf);
 }
 
 .header-link:hover {
