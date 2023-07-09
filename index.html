@@ -425,20 +425,12 @@
           </a>
         </li>
         </ul>
-      </div>
-    </div>
     </footer>
-    <div class="modal-div" data-modal="">
-      <div class="is-hidden">
-        <div class="modal-window">
-          <button class="modal-btn" type="button" data-modal="close">
-            <svg class="modal-svg" width="8" height="8">
-              <use href=""></use>
-            </svg>
-          </button>
-        </div>
+    <button type="button" class="open-modal" data-modal-open>Open Modal</button>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-button" data-modal-close>X</button>
       </div>
-      <script src="./js/modal.js"></script>
     </div>
   </body>
 </html>
