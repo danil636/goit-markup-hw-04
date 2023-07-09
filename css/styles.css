@@ -200,6 +200,7 @@ margin-bottom: 48px;
   cursor: pointer;
   margin-left: auto;
   margin-right: auto;
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover {
@@ -673,33 +674,51 @@ button {
   left: 0;
   width: 100%;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(46, 47, 66, 0.4);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal {
-  width: 300px;
-  height: 250px;
+  width: 408px;
+  min-height: 584px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: #fff;
+  background: var(--modal-color);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-button {
   position: absolute;
-  right: 10px;
-  top: 10px;
-  background-color: grey;
+  right: 24px;
+  top: 24px;
+  background-color: var(--portfolio-btn);
   color: white;
-  width: 30px;
-  height: 30px;
+  width: 24px;
+  height: 24px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-button:hover {
-  background-color: #ff6c00;
+  background-color: var(--brand-links-hf);
+}
+
+.close-button:focus {
+  background-color: var(--brand-links-hf);
+}
+
+.modal-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .is-hidden {
