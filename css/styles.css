@@ -524,6 +524,12 @@ fill: var(--complementary-color);
   display: inline-block;
   margin-bottom: 16px;
 }
+
+.footer-logo:hover,
+.footer-logo:focus {
+  background-color: var(--footer-soc-color);
+}
+
 .footer-logo-studio {
 color: var(--complementary-color);}
 
