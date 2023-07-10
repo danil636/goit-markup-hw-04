@@ -497,7 +497,7 @@ fill: var(--complementary-color)
 }
 
 .footer-soc-link:hover {
-  background-color: var(--footer-soc-color);
+  background-color:var(--footer-soc-color);
 }
 
 .footer-soc-link:focus {
@@ -671,8 +671,6 @@ button {
 .open-modal:hover {
   opacity: 0.8;
 }
-
-/* modal */
 
 .backdrop {
   position: fixed;
