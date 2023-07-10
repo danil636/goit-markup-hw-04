@@ -421,10 +421,10 @@ fill: var(--complementary-color)
 .customers-title {
   text-align: center;
   font-size: 36px;
-  line-height: 1.11;
   color: var(--text-color);
   margin-bottom: 72px;
   line-height: 40px;  
+  line-height: 1.11;
 }
 .customers-list {
   display: flex;
@@ -663,7 +663,7 @@ margin-bottom: 8px;
 }
 
 .projects-link:hover .overlay-parph,
-.projects-link:hover .overlay-parph {
+.projects-link:focus .overlay-parph {
   transform: translateY(0%);
 }
 
