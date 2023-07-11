@@ -422,8 +422,7 @@ fill: var(--complementary-color)
   text-align: center;
   font-size: 36px;
   color: var(--text-color);
-  margin-bottom: 72px;
-  line-height: 40px;  
+  margin-bottom: 72px; 
   line-height: 1.11;
 }
 .customers-list {
